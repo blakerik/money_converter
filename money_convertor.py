@@ -67,7 +67,7 @@ def get_exchange_rate(base: str, target: str, amount: str) -> Tuple:
 
     return (base, target, amount, f'{response["conversion_result"]:.2f}')
 
-print(get_exchange_rate ("GBP", "USD", "500"))
+#print(get_exchange_rate ("GBP", "USD", "500"))
 
 
 @traceable
